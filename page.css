@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto; /* Centre le contenu */
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: right;
+  }
+  
+  header .entete {
+    display: flex;
+  }
+  
+  header img {
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 0;
+    margin-top: 20px;
+  }
+  main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+ h2{
+    text-transform: capitalize;
+ }
+
+
+
+footer {
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {}
+    footer {
+        flex-direction: column; /* Passer à un empilement vertical sur les écrans plus petits */
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+  }
+   
+    .social-link {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 1.2rem;
+      display: flex;
+      transition: color 0.3s ease;
+  }
+  p {
+    width: 50%;
+  }
+ 
+  #fin .cpage, #fin .social-media {
+    display: inline-block;
+    vertical-align: top; /* Alignement vertical au top */
+    margin-right: 20px; /* Marge entre les deux div */
+    text-align: left; /* Alignement du texte à gauche à l'intérieur des div */
+    width: 45%; /* Largeur des div ajustée pour un affichage en inline-block */
+    box-sizing: border-box; /* Pour inclure la bordure et le padding dans la largeur */
+    padding: 20px; /* Espacement intérieur des div */
+    background-color: #333; /* Couleur de fond pour mieux délimiter les div */
+    border: 1px solid #ccc; /* Bordure autour des div */
+    border-radius: 5px; /* Coins arrondis pour les div */
+}
+
+#fin .cpage:hover,  #fin .social-media:hover {
+  background-color:black;
+}

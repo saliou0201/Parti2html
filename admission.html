@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions</title>
+    <link rel="stylesheet" href="admission.css">
+    <script src="admission.js"></script>
+</head>
+
+<body>
+    <header class="serveau">
+        <div class="entete">
+            <img src="Immage\Screenshot 2024-07-09 180225.png" alt="photo" height="70px" width="200px">
+            <h1 id="titre">Universite Gamal abdel Nasser</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="page1.html">accueil</a></li>
+                <li><a href="notreUniversit.html">notre université</a></li>
+                <li><a href="#">admissions</a></li>
+                <li><a href="#">programmes</a></li>
+                <li><a href="#">vie étudiante</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>veillé remplir le formulaire de demande d'admission</h2>
+        <form action="admission" name="admission" method="post" >
+            <div class="nom">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" >
+            </div>
+            <div class="prénom">
+                <label for="prénom">Prénom :</label>
+                <input type="text" id="Prénom" name="prénom" >
+            </div>
+            <div class="email">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="tel">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone">
+            </div>
+            <div class="adresse">
+                <label for="adresse">Adresse :</label>
+                <input type="text" id="adresse" name="adresse">
+            </div>
+            <div>
+                <label for="citoyenneté">Pays de naissance :</label>
+                <select name="citoyenneté" id="citoyenneté" >
+                    <option>Pays de naissance</option>
+                    <option value="">Afrique du Sud</option>
+                    <option value="">Afghanistan</option>
+                    <option value="">Albanie</option>
+                    <option value="">Algérie</option>
+                    <option value="">Allemagne</option>
+                    <option value="">Andorre</option>
+                    <option value="">Angola</option>
+                    <option value="">Antigua-et-Barbuda</option>
+                    <option value="">Arabie Saoudite</option>
+                    <option value="">Argentine</option>
+                    <option value="">Arménie</option>
+                    <option value="">Australie</option>
+                    <option value="">Autriche</option>
+                    <option value="">Azerbaïdjan</option>
+                    <option value="">Bahamas</option>
+                    <option value="">Bahreïn</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Barbade</option>
+                    <option value="">Belgique</option>
+                    <option value="">Belize</option>
+                    <option value="">Bénin</option>
+                    <option value="">Bhoutan</option>
+                    <option value="">Biélorussie</option>
+                    <option value="">Birmanie</option>
+                    <option value="">Bolivie</option>
+                    <option value="">Bosnie-Herzégovine</option>
+                    <option value="">Botswana</option>
+                    <option value="">Brésil</option>
+                    <option value="">Brunei</option>
+                    <option value="">Bulgarie</option>
+                    <option value="">Burkina Faso</option>
+                    <option value="">Burundi</option>
+                    <option value="">Cameroun</option>
+                    <option value="">Canada</option>
+                    <option value="">Cap-Vert</option>
+                    <option value="">Chili</option>
+                    <option value="">Chine</option>
+                    <option value="">Chypre</option>
+                    <option value="">Colombie</option>
+                    <option value="">Comores</option>
+                    <option value="">Corée du Nord</option>
+                    <option value="">Corée du Sud</option>
+                    <option value="">Costa Rica</option>
+                    <option value="">Côte d’Ivoire</option>
+                    <option value="">Croatie</option>
+                    <option value="">Cuba</option>
+                    <option value="">Danemark</option>
+                    <option value="">Djibouti</option>
+                    <option value="">Dominique</option>
+                    <option value="">Égypte</option>
+                    <option value="">Émirats arabes unis</option>
+                    <option value="">Équateur</option>
+                    <option value="">Érythrée</option>
+                    <option value="">Espagne</option>
+                    <option value="">Eswatini</option>
+                    <option value="">États-Unis</option>
+                    <option value="">France</option>
+                    <option value="">Gabon</option>
+                    <option value="">Gambie</option>
+                    <option value="">Ghana</option>
+                    <option value="">Grèce</option>
+                    <option value="">Guinée</option>
+                    <option value="">Haïti</option>
+                </select>
+            </div>
+            <div class="cycle">
+                <label for="cycle">Cycle :</label>
+                <select name="cycle" id="cycle" >
+                    <option value="licence">Licence</option>
+                    <option value="master">Master</option>
+                    <option value="doctorat">Doctorat</option>
+                </select>
+            </div>
+            <div class="Programmes">
+                <label for="programmes">Programmes</label>
+                <select name="programmes" id="programmes" >
+                    <option value="">Cycle d'étude</option>
+                    <option value="1">Licence Physique</option>
+                    <option value="2">Licence Chimie</option>
+                    <option value="3">Licence Biologie</option>
+                    <option value="5">Licence Biochimie</option>
+                    <option value="6">Licence Mathématiques</option>
+                    <option value="7">Génie Chimique</option>
+                    <option value="8">Génie civil</option>
+                    <option value="9">Génie Électrique</option>
+                    <option value="10">Génie Informatique</option>
+                    <option value="11">Génie Industriel et Maintenance</option>
+                    <option value="12">Génie Mécanique et Télécommunications</option>
+                    <option value="13">Master Biologie</option>
+                    <option value="14">Master Mathématiques</option>
+                    <option value="15">Master Chimie moléculaire</option>
+                    <option value="16">Master Chimie-Biologie Appliquée</option>
+                    <option value="17">Master Système Energétique et Environnement</option>
+                </select>
+            </div>
+               <button type="submit">Soumetre</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

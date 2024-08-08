@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admission.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    <header>
+        <div class="entete">
+            <img src="Immage\Screenshot 2024-07-09 180225.png" alt="photo" height="70px" width="200px">
+            <h1 id="titre">Universite Gamal abdel Nasser</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="page1.html">accueil</a></li>
+                <li><a href="admission.html">admissions</a></li>
+                <li><a href="#">programmes</a></li>
+                <li><a href="#">vie étudiante</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#notre-université">notre université</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+        <form action="/l-message" method="post" id="cntact">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" >
+            </div>
+            <div>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" >
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message"  cols="70" rows="10"></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
